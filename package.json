@@ -1,0 +1,26 @@
+{
+  "name": "inkline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Inkline — AI-powered manga & manhwa production studio",
+  "scripts": {
+    "dev": "NODE_OPTIONS=--experimental-sqlite next dev -H 0.0.0.0 -p 3000",
+    "build": "NODE_OPTIONS=--experimental-sqlite next build",
+    "start": "NODE_OPTIONS=--experimental-sqlite next start -H 0.0.0.0 -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.2.30",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3"
+  }
+}
