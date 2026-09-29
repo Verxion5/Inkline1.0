@@ -136,7 +136,7 @@ export default function ChapterDetailPage() {
                           style={{ left: `${pl.x}%`, top: `${pl.y}%`, width: `${pl.w}%`, height: `${pl.h}%` }}>
                           {pl.imageUrl
                             ? <img src={pl.imageUrl} alt="" className="h-full w-full object-cover" />
-                            : <div className="flex h-full w-full items-center justify-center bg-repeating-linear-[] text-[7px] text-ink-400" style={{ backgroundImage: "repeating-linear-gradient(45deg, rgba(0,0,0,0.06) 0 3px, transparent 3px 6px)" }}>?</div>}
+                            : <div className="flex h-full w-full items-center justify-center text-[7px] text-ink-400" style={{ backgroundImage: "repeating-linear-gradient(45deg, rgba(0,0,0,0.06) 0 3px, transparent 3px 6px)" }}>?</div>}
                         </div>
                       ))}
                     </div>

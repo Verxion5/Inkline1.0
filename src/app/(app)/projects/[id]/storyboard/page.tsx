@@ -4,7 +4,7 @@ import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useMemo, useState } from "react";
 import { api, useApiData, useDebouncedCallback } from "@/lib/client";
 import { useToast } from "@/components/toast";
-import { EmptyState, Segmented, SkeletonRows, Spinner } from "@/components/ui";
+import { EmptyState, Spinner } from "@/components/ui";
 import type { Chapter, Scene, ShotType, CameraAngle, StoryboardSpec, Location } from "@/lib/types";
 
 const SHOTS: ShotType[] = ["establishing", "wide", "medium", "close-up", "extreme-close-up", "over-the-shoulder", "action", "splash", "insert"];
